@@ -1,0 +1,26 @@
+body{
+    margin: 0px 0px;
+    font-family: roboto;
+    margin-top: 0px;
+    background-color: #E6EFE9;
+}
+
+h1{
+    margin-top: 0px;
+    background-color: #607196;
+    color:  #36311F;
+    padding: 5px 15px;
+    font-size: 40px;
+}
+
+.calcBackground{
+    display: flex;
+    justify-content: center;
+}
+
+.calculatorFrame{
+    display: flex;
+    border: 1px solid;
+    min-width: 300px;
+    min-height: 300px;
+}
