@@ -9,12 +9,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
     <h1>Calculator</h1>
     <div class="calcBackground">
         <div class="calculatorFrame">
+            <div class="displayScreen"></div>
+            <div class="rowOne">
+                <!-- percentage , backspace , clear , equals -->
+                <div class="rowOneButton">  AC        </div>
+                <div class="rowOneButton"> <ion-icon name="backspace-outline"></ion-icon>     </div>
+                <div class="rowOneButton">   %     </div>
+                <div class="rowOneButton" id="equals">  =        </div>
+            </div>
 
+            <div class="rowTwo">
+                <!-- 9 , 8 , 7 , + -->
+                <div class="rowTwoButton" id="nine">  9      </div>
+                <div class="rowTwoButton" id="eight">  8     </div>
+                <div class="rowTwoButton" id="seven">  7       </div>
+                <div class="rowTwoButton" id="add">  +        </div>
+            </div>
         </div>
     </div>
 
