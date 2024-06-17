@@ -20,7 +20,7 @@ h1{
 
 .calculatorFrame{
     min-width: 50vh;
-    min-height: 50vh;
+    min-height: 40vh;
     border: 5px solid rgba(0, 0, 0, 0.596);
     border-radius: 8px;
     background-color: white;
@@ -29,10 +29,16 @@ h1{
 .displayScreen{
     display: flex;
     /* padding: 2em; */
-    min-height: 5em;
+    min-height: 75px;
     border: 2px solid;
     border-radius: 6px;
     margin: 2px 2px;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: end;
+    align-items: end;
+    max-height: 80px;
+    box-sizing: border-box;
 }
 
 .rowOne,.rowTwo,.rowThree,.rowFour{
@@ -71,3 +77,6 @@ h1{
     background-color: #4673d4;
 }
 
+.moving{
+    background-color: rgb(156, 151, 142);
+}
